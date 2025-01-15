@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="">
+    <title>Blog Project</title>
+</head>
+<body>
+    <!-- header section code start hare  -->
+    <header class="px-10 py-2 md:py-3">
+        <nav class="flex container mx-auto justify-between items-center">
+            <div class="flex gap-3 items-center"> 
+                <img class="w-12 h-8 md:w-16 md:h-10"  src="img/tickerAI-logo 1.png" alt="logo">
+                <p class="text-[10px] md:text-xs ">A Mark Cuban Company <br>
+                AI-based Financial Market News Aggregator</p>
+            </div>
+            <div class="flex gap-2 md:gap-4 lg:gap-6 justify-center items-center">
+
+                <a class="self-start" href="#"><button class="align-baseline m-0 self-baseline text-[10px] md:text-xs md: bg-[#5677AC] hover:bg-[#6684b4] px-3 py-[6px]  transition hover:scale-105 translate-y-1  text-white rounded outline-none ">Personalize News</button></a>
+
+                <div class="text-[#5677AC] bg-[#5677AC26] w-5 h-5 rounded-full flex justify-center items-center ">
+                    IK
+                </div>
+
+                <svg class="h-5 w-5 stroke-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                </svg>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-[url('../img/pe.png')] h-60 md:h-80 lg:h-96 bg-cover bg-no-repeat ">
+        <div class="flex  items-center justify-center flex-col mx-4 h-[100%]">
+            <h1 class="text-white md:text-6xl text-3xl font-bold md:my-4  my-2">tickerAi</h1>
+            <div class="px-2 py-2 bg-white flex items-center md:w-[650px] w-full rounded">
+                <i class="fa-solid mr-2 fa-magnifying-glass"></i>
+                <input class="text-[12px]" type="text" placeholder="Search any market topic...">
+            </div>
+            <p class="my-3 text-[#F3F3F3] text-[10px]">There are 6 articles available for your preferences</p>
+        </div>
+    </section>
+</body>
+</html>
